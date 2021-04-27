@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>搜索 &mdash; sphinx-quickstart 0.1 文档</title>
+  <title>3. 字体样式 &mdash; sphinx-quickstart 0.1 文档</title>
   
 
   
@@ -23,7 +23,6 @@
   
 
   
-    
   <!--[if lt IE 9]>
     <script src="_static/js/html5shiv.min.js"></script>
   <![endif]-->
@@ -38,10 +37,10 @@
     <script type="text/javascript" src="_static/js/theme.js"></script>
 
     
-    <script type="text/javascript" src="_static/searchtools.js"></script>
-    <script type="text/javascript" src="_static/language_data.js"></script>
     <link rel="index" title="索引" href="genindex.html" />
-    <link rel="search" title="搜索" href="#" /> 
+    <link rel="search" title="搜索" href="search.html" />
+    <link rel="next" title="6. 这里是hello world" href="hello.html" />
+    <link rel="prev" title="2. wiki文档生成工具" href="makewiki.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -68,7 +67,7 @@
 
           
 <div role="search">
-  <form id="rtd-search-form" class="wy-form" action="#" method="get">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
@@ -86,12 +85,12 @@
               
             
             
-              <ul>
+              <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="Sphinx_GitHub_ReadtheDocs.html">1. here is a test markdown file</a></li>
 <li class="toctree-l1"><a class="reference internal" href="makewiki.html">2. wiki文档生成工具</a></li>
-<li class="toctree-l1"><a class="reference internal" href="md_index.html">3. 字体样式</a></li>
-<li class="toctree-l1"><a class="reference internal" href="md_index.html#id2">4. 测试本地链接</a></li>
-<li class="toctree-l1"><a class="reference internal" href="md_index.html#id3">5. 测试外部链接</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">3. 字体样式</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#id2">4. 测试本地链接</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#id3">5. 测试外部链接</a></li>
 <li class="toctree-l1"><a class="reference internal" href="hello.html">6. 这里是hello world</a></li>
 </ul>
 
@@ -141,10 +140,14 @@
     
       <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
         
-      <li>搜索</li>
+      <li><span class="section-number">3. </span>字体样式</li>
     
     
       <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/md_index.md.txt" rel="nofollow"> View page source</a>
+          
         
       </li>
     
@@ -156,23 +159,44 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <noscript>
-  <div id="fallback" class="admonition warning">
-    <p class="last">
-      Please activate JavaScript to enable the search functionality.
-    </p>
-  </div>
-  </noscript>
+  <div class="section" id="id1">
+<h1><span class="section-number">3. </span>字体样式<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h1>
+<p>==字体高亮==</p>
+<p>==<em>斜+高亮</em>==</p>
+<p><em>==高亮+斜==</em></p>
+<p>==<strong>粗+高亮</strong>==</p>
+<p><strong>==高亮+粗==</strong></p>
+<p><em><strong>加粗加斜</strong></em></p>
+<p><strong>加粗</strong></p>
+</div>
+<div class="section" id="id2">
+<h1><span class="section-number">4. </span>测试本地链接<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h1>
+<ol class="simple">
+<li><p><a class="reference external" href="makewiki.html">参考链接_makewiki.html</a></p></li>
+<li><p><a class="reference internal" href="makewiki.html"><span class="doc">链接makewiki.md</span></a></p></li>
+<li><p><a class="reference internal" href="makewiki.html"><span class="doc">参考链接_makewiki</span></a></p></li>
+<li><p><a class="reference internal" href="hello.html"><span class="doc">hello</span></a></p></li>
+</ol>
+</div>
+<hr class="docutils" />
+<div class="section" id="id3">
+<h1><span class="section-number">5. </span>测试外部链接<a class="headerlink" href="#id3" title="永久链接至标题">¶</a></h1>
+<ol class="simple">
+<li><p><a href='https://www.cnblogs.com/jonnyan/p/14207711.html'>外部链接</a></p></li>
+<li><p><a href='https://www.cnblogs.com/jonnyan/p/14207711.html' target='_blank'>新标签页打开外部链接</a></p></li>
+<li><p>仅显示文本</p></li>
+</ol>
+</div>
 
-  
-  <div id="search-results">
-  
-  </div>
 
            </div>
            
           </div>
           <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="hello.html" class="btn btn-neutral float-right" title="6. 这里是hello world" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="makewiki.html" class="btn btn-neutral float-left" title="2. wiki文档生成工具" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
 
   <hr/>
 
@@ -209,14 +233,7 @@
   
   
     
-  
-  <script type="text/javascript">
-    jQuery(function() { Search.loadIndex("searchindex.js"); });
-  </script>
-  
-  <script type="text/javascript" id="searchindexloader"></script>
    
-
 
 </body>
 </html>
